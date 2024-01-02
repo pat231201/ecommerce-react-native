@@ -11,12 +11,40 @@ import {
 import React, {useState} from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {useNavigation} from '@react-navigation/native';
+import {Alert} from 'react-native';
+import axios from 'axios';
 
 const RegisterScreen = () => {
   const navigation = useNavigation();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
+  const handleRegister = () => {
+    const user = {
+      username: name,
+      email: email,
+      password: password,
+    };
+    axios
+      .post('http://192.168.29.112:4000/register', user)
+      .then(response => {
+        console.log(response);
+        Alert.alert(
+          'Registration successful',
+          'You have been registered Successfully',
+        );
+        setName('');
+        setEmail('');
+        setPassword('');
+      })
+      .catch(err => {
+        Alert.alert(
+          'Registeration Failed',
+          'An error occured during registration',
+        );
+        console.log('Registration error occured', err.message);
+      });
+  };
   return (
     <SafeAreaProvider
       style={{flex: 1, backgroundColor: 'white', alignItems: 'center'}}>
@@ -130,6 +158,7 @@ const RegisterScreen = () => {
         </View>
         <View style={{marginTop: 80}} />
         <Pressable
+          onPress={handleRegister}
           style={{
             width: 200,
             backgroundColor: '#FEBE10',
@@ -145,7 +174,7 @@ const RegisterScreen = () => {
               color: 'white',
               textAlign: 'center',
             }}>
-            Login
+            Register
           </Text>
         </Pressable>
         <Pressable
