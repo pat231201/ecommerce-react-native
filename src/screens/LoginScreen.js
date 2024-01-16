@@ -8,12 +8,49 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {useNavigation} from '@react-navigation/native';
+import axios from 'axios';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {Alert} from 'react-native';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 // import { MaterialIcons } from '@expo/vector-icons';
+import AntDesign from 'react-native-vector-icons/AntDesign';
 
 const LoginScreen = () => {
+  const handleLogin = () => {
+    const user = {
+      email: email,
+      password: password,
+    };
+    axios
+      .post('http://192.168.29.112:4000/login', user)
+      .then(response => {
+        // console.log(response);
+        const token = response.data.token;
+        AsyncStorage.setItem('authToken', token);
+        navigation.replace('Main');
+      })
+      .catch(error => {
+        Alert.alert('Login Error', 'Invalid Email or Pass');
+        console.log(error);
+      });
+  };
+  useEffect(() => {
+    const checkLoginStatus = async () => {
+      try {
+        const token = await AsyncStorage.getItem('authToken');
+        if (token) {
+          navigation.replace('Main');
+        }
+      } catch (err) {
+        console.log('Error Message', err);
+      }
+    };
+    checkLoginStatus();
+  }, []);
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigation = useNavigation();
@@ -53,7 +90,12 @@ const LoginScreen = () => {
               paddingVertical: 5,
               borderRadius: 5,
             }}>
-            {/* <MaterialIcons name="email" size={24} color="black" /> */}
+            <MaterialIcons
+              style={{marginLeft: 8}}
+              name="email"
+              size={24}
+              color="gray"
+            />
             <TextInput
               value={email}
               onChangeText={text => setEmail(text)}
@@ -78,7 +120,12 @@ const LoginScreen = () => {
               paddingVertical: 5,
               borderRadius: 5,
             }}>
-            {/* <MaterialIcons name="email" size={24} color="black" /> */}
+            <AntDesign
+              name="lock1"
+              size={24}
+              color="gray"
+              style={{marginLeft: 8}}
+            />
             <TextInput
               value={password}
               onChangeText={text => setPassword(text)}
@@ -107,6 +154,7 @@ const LoginScreen = () => {
         </View>
         <View style={{marginTop: 80}} />
         <Pressable
+          onPress={handleLogin}
           style={{
             width: 200,
             backgroundColor: '#FEBE10',

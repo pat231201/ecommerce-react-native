@@ -13,6 +13,9 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {useNavigation} from '@react-navigation/native';
 import {Alert} from 'react-native';
 import axios from 'axios';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import AntDesign from 'react-native-vector-icons/AntDesign';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const RegisterScreen = () => {
   const navigation = useNavigation();
@@ -21,14 +24,15 @@ const RegisterScreen = () => {
   const [name, setName] = useState('');
   const handleRegister = () => {
     const user = {
-      username: name,
+      // username: name,
+      name: name,
       email: email,
       password: password,
     };
     axios
       .post('http://192.168.29.112:4000/register', user)
       .then(response => {
-        console.log(response);
+        // console.log(response);
         Alert.alert(
           'Registration successful',
           'You have been registered Successfully',
@@ -80,7 +84,12 @@ const RegisterScreen = () => {
                 paddingVertical: 5,
                 borderRadius: 5,
               }}>
-              {/* <MaterialIcons name="email" size={24} color="black" /> */}
+              <Ionicons
+                name="person-circle-outline"
+                size={24}
+                color="gray"
+                style={{marginLeft: 8}}
+              />
               <TextInput
                 value={name}
                 onChangeText={text => setName(text)}
@@ -104,7 +113,12 @@ const RegisterScreen = () => {
               paddingVertical: 5,
               borderRadius: 5,
             }}>
-            {/* <MaterialIcons name="email" size={24} color="black" /> */}
+            <MaterialIcons
+              style={{marginLeft: 8}}
+              name="email"
+              size={24}
+              color="gray"
+            />
             <TextInput
               value={email}
               onChangeText={text => setEmail(text)}
@@ -129,7 +143,12 @@ const RegisterScreen = () => {
               paddingVertical: 5,
               borderRadius: 5,
             }}>
-            {/* <MaterialIcons name="email" size={24} color="black" /> */}
+            <AntDesign
+              name="lock1"
+              size={24}
+              color="gray"
+              style={{marginLeft: 8}}
+            />
             <TextInput
               value={password}
               onChangeText={text => setPassword(text)}

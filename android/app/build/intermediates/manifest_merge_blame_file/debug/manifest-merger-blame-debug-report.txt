@@ -22,97 +22,247 @@
 17-->[com.facebook.flipper:flipper:0.201.0] C:\Users\ADMIN\.gradle\caches\transforms-3\9b2c28bd5719adb7e465469e2ca76c12\transformed\jetified-flipper-0.201.0\AndroidManifest.xml:14:5-76
 17-->[com.facebook.flipper:flipper:0.201.0] C:\Users\ADMIN\.gradle\caches\transforms-3\9b2c28bd5719adb7e465469e2ca76c12\transformed\jetified-flipper-0.201.0\AndroidManifest.xml:14:22-73
 18
-19    <permission
-19-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-20        android:name="com.ecommerce.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-20-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-21        android:protectionLevel="signature" />
-21-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19    <queries>
+19-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:10:5-39:15
+20        <intent>
+20-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:11:9-17:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:12:13-65
+21-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:12:21-62
 22
-23    <uses-permission android:name="com.ecommerce.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-23-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-23-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-24
-25    <application
-25-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:5:5-24:19
-26        android:name="com.ecommerce.MainApplication"
-26-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:6:7-38
-27        android:allowBackup="false"
-27-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:10:7-34
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-29        android:debuggable="true"
-30        android:extractNativeLibs="true"
-31        android:icon="@mipmap/ic_launcher"
-31-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:8:7-41
-32        android:label="@string/app_name"
-32-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:7:7-39
-33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:9:7-52
-34        android:theme="@style/AppTheme"
-34-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:11:7-38
-35        android:usesCleartextTraffic="true" >
-35-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\debug\AndroidManifest.xml:6:9-44
-36        <activity
-36-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:12:7-23:18
-37            android:name="com.ecommerce.MainActivity"
-37-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:13:9-37
-38            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-38-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:15:9-118
-39            android:exported="true"
-39-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:18:9-32
-40            android:label="@string/app_name"
-40-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:14:9-41
-41            android:launchMode="singleTask"
-41-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:16:9-40
-42            android:windowSoftInputMode="adjustResize" >
-42-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:17:9-51
-43            <intent-filter>
-43-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:19:9-22:25
-44                <action android:name="android.intent.action.MAIN" />
-44-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:20:13-65
-44-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:20:21-62
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:21:13-73
-46-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:21:23-70
-47            </intent-filter>
-48        </activity>
-49        <activity
-49-->[com.facebook.react:react-android:0.73.1] C:\Users\ADMIN\.gradle\caches\transforms-3\65f520f887f0d0f390437980af8cd371\transformed\jetified-react-android-0.73.1-debug\AndroidManifest.xml:19:9-21:40
-50            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-50-->[com.facebook.react:react-android:0.73.1] C:\Users\ADMIN\.gradle\caches\transforms-3\65f520f887f0d0f390437980af8cd371\transformed\jetified-react-android-0.73.1-debug\AndroidManifest.xml:20:13-77
-51            android:exported="false" />
-51-->[com.facebook.react:react-android:0.73.1] C:\Users\ADMIN\.gradle\caches\transforms-3\65f520f887f0d0f390437980af8cd371\transformed\jetified-react-android-0.73.1-debug\AndroidManifest.xml:21:13-37
-52
-53        <provider
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-54            android:name="androidx.startup.InitializationProvider"
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-55            android:authorities="com.ecommerce.androidx-startup"
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-56            android:exported="false" >
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-57            <meta-data
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-59                android:value="androidx.startup" />
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-60            <meta-data
-60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-62                android:value="androidx.startup" />
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-63        </provider>
-64
-65        <meta-data
-65-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ADMIN\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
-66            android:name="com.facebook.soloader.enabled"
-66-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ADMIN\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
-67            android:value="false" />
-67-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ADMIN\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
-68    </application>
-69
-70</manifest>
+23            <data
+23-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:14:13-16:38
+24                android:mimeType="*/*"
+24-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:15:17-39
+25                android:scheme="*" />
+25-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:16:17-35
+26        </intent>
+27        <intent>
+27-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:18:9-27:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:12:13-65
+28-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:12:21-62
+29
+30            <category android:name="android.intent.category.BROWSABLE" />
+30-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:21:13-74
+30-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:21:23-71
+31
+32            <data
+32-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:14:13-16:38
+33                android:host="pay"
+34                android:mimeType="*/*"
+34-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:15:17-39
+35                android:scheme="upi" />
+35-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:16:17-35
+36        </intent>
+37        <intent>
+37-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:28:9-30:18
+38            <action android:name="android.intent.action.MAIN" />
+38-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:20:13-65
+38-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:20:21-62
+39        </intent>
+40        <intent>
+40-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:31:9-35:18
+41            <action android:name="android.intent.action.SEND" />
+41-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:32:13-65
+41-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:32:21-62
+42
+43            <data android:mimeType="*/*" />
+43-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:14:13-16:38
+43-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:15:17-39
+44        </intent>
+45        <intent>
+45-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:36:9-38:18
+46            <action android:name="rzp.device_token.share" />
+46-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:37:13-61
+46-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:37:21-58
+47        </intent>
+48    </queries> <!-- Include required permissions for Google Maps API to run. -->
+49    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+49-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0790627aa82ec82bdd3740034e9fdb95\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+49-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0790627aa82ec82bdd3740034e9fdb95\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+50
+51    <uses-feature
+51-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0790627aa82ec82bdd3740034e9fdb95\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+52        android:glEsVersion="0x00020000"
+52-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0790627aa82ec82bdd3740034e9fdb95\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+53        android:required="true" />
+53-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0790627aa82ec82bdd3740034e9fdb95\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+54
+55    <permission
+55-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+56        android:name="com.ecommerce.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+56-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+57        android:protectionLevel="signature" />
+57-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+58
+59    <uses-permission android:name="com.ecommerce.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+59-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+59-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+60
+61    <application
+61-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:5:5-24:19
+62        android:name="com.ecommerce.MainApplication"
+62-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:6:7-38
+63        android:allowBackup="false"
+63-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:10:7-34
+64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+64-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+65        android:debuggable="true"
+66        android:extractNativeLibs="true"
+67        android:icon="@mipmap/ic_launcher"
+67-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:8:7-41
+68        android:label="@string/app_name"
+68-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:7:7-39
+69        android:roundIcon="@mipmap/ic_launcher_round"
+69-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:9:7-52
+70        android:theme="@style/AppTheme"
+70-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:11:7-38
+71        android:usesCleartextTraffic="true" >
+71-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\debug\AndroidManifest.xml:6:9-44
+72        <activity
+72-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:12:7-23:18
+73            android:name="com.ecommerce.MainActivity"
+73-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:13:9-37
+74            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+74-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:15:9-118
+75            android:exported="true"
+75-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:18:9-32
+76            android:label="@string/app_name"
+76-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:14:9-41
+77            android:launchMode="singleTask"
+77-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:16:9-40
+78            android:windowSoftInputMode="adjustResize" >
+78-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:17:9-51
+79            <intent-filter>
+79-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:19:9-22:25
+80                <action android:name="android.intent.action.MAIN" />
+80-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:20:13-65
+80-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:20:21-62
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:21:13-73
+82-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:21:23-70
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->[:react-native-razorpay] D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\node_modules\react-native-razorpay\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-10:86
+86            android:name="com.razorpay.CheckoutActivity"
+86-->[:react-native-razorpay] D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\node_modules\react-native-razorpay\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-57
+87            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+87-->[:react-native-razorpay] D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\node_modules\react-native-razorpay\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-83
+88            android:exported="false"
+88-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:54:13-37
+89            android:theme="@style/CheckoutTheme" >
+89-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:55:13-49
+90            <intent-filter>
+90-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:56:13-58:29
+91                <action android:name="android.intent.action.MAIN" />
+91-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:20:13-65
+91-->D:\React Native\AmazonClone\ecommerce-react-native\eCommerce\android\app\src\main\AndroidManifest.xml:20:21-62
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->[com.facebook.react:react-android:0.73.1] C:\Users\ADMIN\.gradle\caches\transforms-3\65f520f887f0d0f390437980af8cd371\transformed\jetified-react-android-0.73.1-debug\AndroidManifest.xml:19:9-21:40
+95            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+95-->[com.facebook.react:react-android:0.73.1] C:\Users\ADMIN\.gradle\caches\transforms-3\65f520f887f0d0f390437980af8cd371\transformed\jetified-react-android-0.73.1-debug\AndroidManifest.xml:20:13-77
+96            android:exported="false" />
+96-->[com.facebook.react:react-android:0.73.1] C:\Users\ADMIN\.gradle\caches\transforms-3\65f520f887f0d0f390437980af8cd371\transformed\jetified-react-android-0.73.1-debug\AndroidManifest.xml:21:13-37
+97
+98        <receiver
+98-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:42:9-49:20
+99            android:name="com.razorpay.RzpTokenReceiver"
+99-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:43:13-57
+100            android:exported="true" >
+100-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:44:13-36
+101            <intent-filter>
+101-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:46:13-48:29
+102                <action android:name="rzp.device_token.share" />
+102-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:37:13-61
+102-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:37:21-58
+103            </intent-filter>
+104        </receiver>
+105
+106        <meta-data
+106-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:61:9-63:58
+107            android:name="com.razorpay.plugin.googlepay_all"
+107-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:62:13-61
+108            android:value="com.razorpay.RzpGpayMerged" />
+108-->[com.razorpay:checkout:1.6.36] C:\Users\ADMIN\.gradle\caches\transforms-3\6c2f63ac1d746e0c262057acea732b8a\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:63:13-55
+109
+110        <activity
+110-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\fd783ee9a51d7fe87453a66a378ffe31\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+111            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+111-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\fd783ee9a51d7fe87453a66a378ffe31\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+112            android:excludeFromRecents="true"
+112-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\fd783ee9a51d7fe87453a66a378ffe31\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\fd783ee9a51d7fe87453a66a378ffe31\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\fd783ee9a51d7fe87453a66a378ffe31\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+115        <!--
+116            Service handling Google Sign-In user revocation. For apps that do not integrate with
+117            Google Sign-In, this service will never be started.
+118        -->
+119        <service
+119-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\fd783ee9a51d7fe87453a66a378ffe31\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+120            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+120-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\fd783ee9a51d7fe87453a66a378ffe31\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\fd783ee9a51d7fe87453a66a378ffe31\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+122            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+122-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\fd783ee9a51d7fe87453a66a378ffe31\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+123        <uses-library
+123-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0790627aa82ec82bdd3740034e9fdb95\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+124            android:name="org.apache.http.legacy"
+124-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0790627aa82ec82bdd3740034e9fdb95\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+125            android:required="false" />
+125-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0790627aa82ec82bdd3740034e9fdb95\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+126
+127        <activity
+127-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ADMIN\.gradle\caches\transforms-3\19ec269da49c6c76309942cfa013a60d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+128            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+128-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ADMIN\.gradle\caches\transforms-3\19ec269da49c6c76309942cfa013a60d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ADMIN\.gradle\caches\transforms-3\19ec269da49c6c76309942cfa013a60d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ADMIN\.gradle\caches\transforms-3\19ec269da49c6c76309942cfa013a60d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-3\e346030595efa15e8d590613dd8a483b\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-3\e346030595efa15e8d590613dd8a483b\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-3\e346030595efa15e8d590613dd8a483b\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+135
+136        <provider
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+137            android:name="androidx.startup.InitializationProvider"
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+138            android:authorities="com.ecommerce.androidx-startup"
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+139            android:exported="false" >
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+140            <meta-data
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+141                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+142                android:value="androidx.startup" />
+142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+143            <meta-data
+143-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+144                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+144-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+145                android:value="androidx.startup" />
+145-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+146        </provider>
+147
+148        <meta-data
+148-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ADMIN\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+149            android:name="com.facebook.soloader.enabled"
+149-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ADMIN\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+150            android:value="false" />
+150-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ADMIN\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+151    </application>
+152
+153</manifest>
